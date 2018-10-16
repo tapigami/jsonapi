@@ -2,6 +2,8 @@
 
 require 'active_support/concern'
 
+require 'jsonapi/response'
+
 module Jsonapi
   module RestOperation
     extend ActiveSupport::Concern
